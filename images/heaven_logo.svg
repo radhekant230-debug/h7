@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E5AB" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#AA7C11" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Circular Emblem (inspired by venue backlit sign) -->
+  <g transform="translate(60, 60)">
+    <!-- Outer Ring -->
+    <circle cx="0" cy="0" r="48" fill="none" stroke="url(#goldGrad)" stroke-width="3.5" />
+    <circle cx="0" cy="0" r="43" fill="#141210" stroke="rgba(212, 175, 55, 0.3)" stroke-width="1" />
+    
+    <!-- Stylized "H" with cutlery motif -->
+    <!-- Left Stem (Fork-inspired) -->
+    <path d="M-22, -26 L-16, -26 L-16, 26 L-22, 26 Z" fill="url(#goldGrad)" />
+    <!-- Tines hint -->
+    <path d="M-24, -28 L-24, -18 M-19, -28 L-19, -18 M-14, -28 L-14, -18" stroke="url(#goldGrad)" stroke-width="1.8" stroke-linecap="round" />
+    
+    <!-- Crossbar -->
+    <path d="M-18, -2 L18, -2 L18, 5 L-18, 5 Z" fill="url(#goldGrad)" />
+    
+    <!-- Right Stem (Spoon-angled inspired) -->
+    <path d="M12, -26 L18, -26 L18, 26 L12, 26 Z" fill="url(#goldGrad)" />
+    <!-- Top Spoon bowl ellipse -->
+    <ellipse cx="15" cy="-24" rx="7" ry="9" fill="url(#goldGrad)" />
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(130, 48)">
+    <text font-family="'Marcellus', 'Cinzel', serif" font-size="34" font-weight="700" letter-spacing="4" fill="#FFFFFF">
+      HEAVEN
+    </text>
+    <text y="30" font-family="'Manrope', sans-serif" font-size="12" font-weight="600" letter-spacing="7" fill="url(#goldGrad)">
+      LOUNGE &amp; BAR
+    </text>
+  </g>
+</svg>

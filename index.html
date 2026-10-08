@@ -1,0 +1,1191 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HEAVEN LOUNGE &amp; BAR | Premier Dining &amp; Nightlife Destination</title>
+  <meta name="description" content="Experience HEAVEN LOUNGE &amp; BAR. An elevated sanctuary of crafted mixology, gourmet culinary creations, bespoke lounge ambiance, and electric weekend nightlife.">
+  <meta name="keywords" content="Heaven Lounge & Bar, Lounge in Ranchi, Bar, Cocktails, Nightlife, Fine Dining, Luxury Lounge, Argora Ranchi">
+  
+  <!-- Open Graph / SEO -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="HEAVEN LOUNGE &amp; BAR | Premier Dining &amp; Nightlife Destination">
+  <meta property="og:description" content="Welcome to HEAVEN LOUNGE &amp; BAR. Indulge in artisanal cocktails, gourmet cuisine, and bespoke ambient spaces crafted for unforgettable evenings.">
+  <meta property="og:image" content="images/heaven_hero.jpg">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="HEAVEN LOUNGE &amp; BAR">
+  <meta name="twitter:description" content="Where Culinary Artistry Meets Vibrant Nightlife.">
+  <meta name="twitter:image" content="images/heaven_hero.jpg">
+
+  <link rel="icon" type="image/png" href="images/heaven_logo_transparent.png">
+
+  <!-- Google Fonts: Marcellus (Luxury Serif) & Manrope (Clean Modern Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Marcellus&display=swap" rel="stylesheet">
+
+  <!-- Master Stylesheet -->
+  <link rel="stylesheet" href="css/heaven.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       SITE HEADER / NAVBAR
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#" class="brand-link" aria-label="HEAVEN LOUNGE &amp; BAR Home">
+        <img src="images/heaven_logo_transparent.png" alt="HEAVEN LOUNGE &amp; BAR" class="brand-logo-img logo-light">
+        <img src="images/heaven_logo_transparent.png" alt="HEAVEN LOUNGE &amp; BAR" class="brand-logo-img logo-dark">
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#story" class="nav-link">Our Story</a>
+        <a href="#culinary" class="nav-link">Culinary</a>
+        <a href="#cocktails" class="nav-link">Cocktails</a>
+        <a href="#ambiance" class="nav-link">Ambiance</a>
+        <a href="#nightlife" class="nav-link">Nightlife</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#location" class="nav-link">Hours &amp; Location</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button class="theme-toggle-btn" aria-label="Switch Theme" title="Toggle Light/Dark Theme">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <button class="btn btn-primary" data-open-modal="reservation">
+          <span>Reserve a Table</span>
+        </button>
+
+        <button class="mobile-toggle" aria-label="Toggle Navigation Menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-backdrop"></div>
+  <aside class="mobile-nav-drawer" aria-label="Mobile Navigation">
+    <div>
+      <div style="margin-bottom: 2rem; display: flex; align-items: center; justify-content: space-between;">
+        <div>
+          <img src="images/heaven_logo_transparent.png" alt="HEAVEN LOUNGE &amp; BAR" class="brand-logo-img logo-light" style="height: 54px;">
+          <img src="images/heaven_logo_transparent.png" alt="HEAVEN LOUNGE &amp; BAR" class="brand-logo-img logo-dark" style="height: 54px;">
+        </div>
+        <button class="theme-toggle-btn" aria-label="Switch Theme" title="Toggle Light/Dark Theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+      <ul class="mobile-nav-list">
+        <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+        <li><a href="#story" class="mobile-nav-link">Our Story</a></li>
+        <li><a href="#culinary" class="mobile-nav-link">Culinary</a></li>
+        <li><a href="#cocktails" class="mobile-nav-link">Craft Cocktails</a></li>
+        <li><a href="#ambiance" class="mobile-nav-link">Lounge Ambiance</a></li>
+        <li><a href="#nightlife" class="mobile-nav-link">Nightlife &amp; Events</a></li>
+        <li><a href="#gallery" class="mobile-nav-link">Gallery</a></li>
+        <li><a href="#location" class="mobile-nav-link">Hours &amp; Location</a></li>
+      </ul>
+    </div>
+    <div>
+      <button class="btn btn-primary" style="width: 100%; margin-bottom: 1rem;" data-open-modal="reservation">
+        Reserve a Table
+      </button>
+      <a href="tel:+919927548600" class="btn btn-outline" style="width: 100%;">
+        Call: +91 99275 48600
+      </a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section id="hero" class="hero-section">
+      <div class="hero-background-wrapper">
+        <img src="images/heaven_hero.jpg" alt="HEAVEN LOUNGE &amp; BAR Luxe Interior" class="hero-bg-img">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <h1 class="hero-title">HEAVEN LOUNGE &amp; BAR</h1>
+        <p class="hero-desc">
+          Step into a world of curated luxury, handcrafted mixology, and eclectic culinary flavors. Designed for intimate conversations, celebration dinners, and unforgettable evenings.
+        </p>
+        <div class="hero-buttons">
+          <button class="btn btn-primary" data-open-modal="reservation">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            <span>Reserve a Table</span>
+          </button>
+          <a href="#story" class="btn btn-outline">
+            <span>Discover The Experience</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         OUR STORY / ABOUT SECTION
+         ========================================================================== -->
+    <section id="story" class="about-section">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-media-stack">
+            <img src="images/heaven_about_1.jpg" alt="HEAVEN LOUNGE &amp; BAR Illuminated Bar Counter" class="about-img-main">
+            <img src="images/heaven_about_2.jpg" alt="HEAVEN Emblem and Premium Liquor Display" class="about-img-overlap">
+            <div class="about-badge-floating">
+              <div class="badge-number">100%</div>
+              <div class="badge-text">Pure Luxury</div>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <span class="section-label">Our Philosophy</span>
+            <h2 class="section-title">Where Taste Meets Sophistication</h2>
+            <p class="about-content-text">
+              At <strong>HEAVEN LOUNGE &amp; BAR</strong>, every evening is orchestrated to perfection. From the hypnotic ambient lighting reflecting off our crystal glassware to the velvety textures of our lounge seating, we have crafted a venue that transcends ordinary dining.
+            </p>
+            <p class="about-content-text">
+              Whether you are savoring handcrafted cocktails mixed by expert bartenders, relishing authentic gourmet delights fresh from our oven, or unwinding under the warm glow of our bespoke lighting fixtures, HEAVEN LOUNGE &amp; BAR is your urban sanctuary.
+            </p>
+
+            <div class="about-features-list">
+              <div class="about-feature-item">
+                <div class="feature-bullet">✦</div>
+                <div>
+                  <strong style="color: #fff; display: block; font-size: 1.05rem;">Masterfully Crafted Cocktails</strong>
+                  <span style="color: var(--color-text-muted); font-size: 0.92rem;">Fresh herbs, spiced rims, artisanal infusions, and premium international spirits.</span>
+                </div>
+              </div>
+              <div class="about-feature-item">
+                <div class="feature-bullet">✦</div>
+                <div>
+                  <strong style="color: #fff; display: block; font-size: 1.05rem;">Bespoke Architectural Interiors</strong>
+                  <span style="color: var(--color-text-muted); font-size: 0.92rem;">Intimate booths with 3D sculptured wall art, woven ambient pendants, and diamond-glass bar accents.</span>
+                </div>
+              </div>
+              <div class="about-feature-item">
+                <div class="feature-bullet">✦</div>
+                <div>
+                  <strong style="color: #fff; display: block; font-size: 1.05rem;">Unrivaled Hospitality</strong>
+                  <span style="color: var(--color-text-muted); font-size: 0.92rem;">Impeccable table service dedicated to making your private celebrations unforgettable.</span>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top: 2.5rem;">
+              <button class="btn btn-primary" data-open-modal="reservation">Experience HEAVEN LOUNGE &amp; BAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         HORIZONTAL MOVING FOOD TRAY (Scroll-Driven Track)
+         ========================================================================== -->
+            <section class="food-tray-section" id="food-tray" aria-label="Signature Dishes Moving Food Tray">
+      <div class="food-tray-header">
+        <span class="section-label">Culinary Showcase</span>
+        <h2 class="section-title">Fresh From Our Kitchen &amp; Bar</h2>
+        <p class="section-subtitle" style="margin-bottom: 0;">
+          Scroll to explore our handcrafted culinary dishes and artisan libations.
+        </p>
+      </div>
+
+      <div class="food-tray-viewport">
+        <div class="food-tray-track" id="foodTrayTrack">
+          <!-- Sequence 1 (15 Unique Images) -->
+          <div class="food-tray-group">
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/food_tray_5.jpg" alt="Chef Special Gourmet Platter" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/heaven_cocktail_1.jpg" alt="Signature Craft Cocktail" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_food_1.jpg" alt="Gourmet Dessert" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/heaven_food_1.jpg" alt="Premium Sizzler Platter" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_food_5.jpg" alt="Traditional Curry Delight" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_drink_1.jpg" alt="Tropical Sunset Cocktail" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_food_2.jpg" alt="Signature Frosted Dessert" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/heaven_food_4.jpg" alt="Tandoori Delights Platter" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_food_6.jpg" alt="Gourmet Pasta" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_drink_2.jpg" alt="Signature Red Cocktail" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_food_3.jpg" alt="Rich Chocolate Dessert" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_food_4.jpg" alt="Pistachio Chocolate Treat" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_food_7.jpg" alt="Special Mixed Platter" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/food_tray_4.jpg" alt="Artisan Wood-Fired Pizza" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_food_8.jpg" alt="Delicate Vanilla Dessert" class="food-tray-img"></div></div>
+          </div>
+
+          <!-- Sequence 2 (Duplicate for Seamless Infinite Loop) -->
+          <div class="food-tray-group" aria-hidden="true">
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/food_tray_5.jpg" alt="Chef Special Gourmet Platter" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/heaven_cocktail_1.jpg" alt="Signature Craft Cocktail" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_food_1.jpg" alt="Gourmet Dessert" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/heaven_food_1.jpg" alt="Premium Sizzler Platter" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_food_5.jpg" alt="Traditional Curry Delight" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_drink_1.jpg" alt="Tropical Sunset Cocktail" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_food_2.jpg" alt="Signature Frosted Dessert" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/heaven_food_4.jpg" alt="Tandoori Delights Platter" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_food_6.jpg" alt="Gourmet Pasta" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_drink_2.jpg" alt="Signature Red Cocktail" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_food_3.jpg" alt="Rich Chocolate Dessert" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_food_4.jpg" alt="Pistachio Chocolate Treat" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_food_7.jpg" alt="Special Mixed Platter" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/food_tray_4.jpg" alt="Artisan Wood-Fired Pizza" class="food-tray-img"></div></div>
+            <div class="food-tray-card"><div class="food-tray-card-inner"><img src="images/new_food_8.jpg" alt="Delicate Vanilla Dessert" class="food-tray-img"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CHANGE 2: THREE MENU CATEGORIES (FOOD, DRINK, BAKERY)
+         ========================================================================== -->
+    <section id="culinary" class="culinary-section">
+      <div class="container">
+        <div style="text-align: center;">
+          <span class="section-label">Our Menu</span>
+          <h2 class="section-title">The Culinary Repertoire</h2>
+          <p class="section-subtitle">
+            A symphony of flavors made with the freshest local produce and finest spices, paired exquisitely to complement our bar offerings.
+          </p>
+        </div>
+
+        <div class="culinary-grid">
+          <!-- Category 1: FOOD -->
+          <div class="dish-card">
+            <div class="dish-img-wrap">
+              <span class="dish-tag">Gourmet Fare</span>
+              <img src="images/menu_food_new.jpg" alt="FOOD at HEAVEN LOUNGE &amp; BAR" class="dish-img">
+            </div>
+            <div class="dish-body">
+              <div>
+                <h3 class="dish-name">FOOD</h3>
+                <p class="dish-desc">
+                  A curated selection of chef-crafted culinary creations, fiery wok-tossed appetizers, and signature savory specialties.
+                </p>
+              </div>
+              <div style="margin-top: 1.5rem;">
+                <a href="menu/food-menu.pdf" target="_blank" class="btn btn-outline" style="width: 100%; text-align: center; display: inline-block; box-sizing: border-box; text-decoration: none;">EXPLORE FOOD</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: DRINK -->
+          <div class="dish-card">
+            <div class="dish-img-wrap">
+              <span class="dish-tag">Craft Bar</span>
+              <img src="images/menu_drink_new.jpg" alt="DRINK at HEAVEN LOUNGE &amp; BAR" class="dish-img">
+            </div>
+            <div class="dish-body">
+              <div>
+                <h3 class="dish-name">DRINK</h3>
+                <p class="dish-desc">
+                  Mastercrafted cocktails, premium international spirits, refreshing botanicals, and artisanal house-made infusions.
+                </p>
+              </div>
+              <div style="margin-top: 1.5rem;">
+                <a href="menu/drink-menu.pdf" target="_blank" class="btn btn-outline" style="width: 100%; text-align: center; display: inline-block; box-sizing: border-box; text-decoration: none;">EXPLORE DRINKS</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: BAKERY -->
+          <div class="dish-card">
+            <div class="dish-img-wrap">
+              <span class="dish-tag">Artisan Oven</span>
+              <img src="images/menu_bakery_new.jpg" alt="BAKERY at HEAVEN LOUNGE &amp; BAR" class="dish-img">
+            </div>
+            <div class="dish-body">
+              <div>
+                <h3 class="dish-name">BAKERY</h3>
+                <p class="dish-desc">
+                  Slow-fermented artisan sourdough crusts, golden wood-fired delicacies, and oven-fresh gourmet bakes made to perfection.
+                </p>
+              </div>
+              <div style="margin-top: 1.5rem;">
+                <a href="menu/bakery-menu.pdf" target="_blank" class="btn btn-outline" style="width: 100%; text-align: center; display: inline-block; box-sizing: border-box; text-decoration: none;">EXPLORE BAKERY</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CRAFT COCKTAILS SECTION
+         ========================================================================== -->
+    <section id="cocktails" class="cocktail-section">
+      <div class="container">
+        <div class="cocktail-split">
+          <div>
+            <span class="section-label">Liquid Art</span>
+            <h2 class="section-title">Mastercrafted Cocktails</h2>
+            <p class="about-content-text">
+              Behind the bar at <strong>HEAVEN LOUNGE &amp; BAR</strong>, mixology is treated as a fine art form. Our bartenders balance precision with creativity, using house-infused spirits, botanicals, and hand-pressed citrus.
+            </p>
+
+            <div class="cocktail-menu-preview">
+              <div class="drink-item">
+                <div>
+                  <div class="drink-name">Emerald Botanist Highball</div>
+                  <div class="drink-notes">Gin, crushed mint, lemongrass infusion, lime, chili-salted rim</div>
+                </div>
+                <div class="text-gold font-serif">Signature</div>
+              </div>
+
+              <div class="drink-item">
+                <div>
+                  <div class="drink-name">Heaven Spiced Margarita</div>
+                  <div class="drink-notes">Tequila reposado, fresh jalapeño essence, agave nectar, smoked tajin</div>
+                </div>
+                <div class="text-gold font-serif">House Special</div>
+              </div>
+
+              <div class="drink-item">
+                <div>
+                  <div class="drink-name">Golden Smoked Old Fashioned</div>
+                  <div class="drink-notes">Aged bourbon, bitters, toasted orange peel, aromatic oak smoke</div>
+                </div>
+                <div class="text-gold font-serif">Classic</div>
+              </div>
+            </div>
+
+            <div style="margin-top: 2.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+              <button class="btn btn-primary" data-open-modal="reservation">Reserve at the Bar</button>
+              <a href="tel:+919927548600" class="btn btn-outline">Ask Bartender</a>
+            </div>
+          </div>
+
+          <div class="cocktail-visuals">
+            <div class="cocktail-frame">
+              <img src="images/mastercrafted_cocktail_new.jpg" alt="Signature Spiced Rim Cocktail">
+            </div>
+            <div class="cocktail-frame">
+              <img src="images/heaven_cocktail_2.jpg" alt="Fresh Mint &amp; Herb Cocktail Garnish">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         LOUNGE & AMBIANCE SECTION
+         ========================================================================== -->
+    <section id="ambiance" class="interior-section">
+      <div class="container">
+        <div style="text-align: center;">
+          <span class="section-label">Interior Architecture</span>
+          <h2 class="section-title">Designed for Sophistication</h2>
+          <p class="section-subtitle">
+            An intoxicating blend of moody architectural illumination, bespoke 3D sculptural walls, and plush deep-seated blue velvet banquettes.
+          </p>
+        </div>
+
+        <div class="interior-banner">
+          <video autoplay muted loop playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;">
+            <source src="videos/vip-lounge.mp4" type="video/mp4">
+          </video>
+          <div class="interior-banner-overlay">
+            <span class="section-label" style="color: var(--color-gold-light); margin-bottom: 0.5rem;">VIP Lounge Alcove</span>
+            <h3 class="font-serif" style="font-size: 2rem; color: #fff; margin-bottom: 0.5rem;">Intimate Booths &amp; Bespoke Art</h3>
+            <p style="color: #ded8cb; max-width: 600px; font-size: 0.95rem;">
+              Featuring our hand-sculpted floral centerpiece, diamond tufted cushions, and warm woven wicker pendant lamps that bathe your table in flattering light.
+            </p>
+          </div>
+        </div>
+
+        <div class="interior-duo">
+          <div class="interior-card">
+            <img src="images/heaven_interior_1.jpg" alt="Architectural Wall Sconces &amp; Plants">
+            <div class="interior-card-caption">
+              <h4 class="font-serif" style="color: #fff; font-size: 1.25rem;">Illuminated Masonry Wall</h4>
+              <p style="color: var(--color-text-muted); font-size: 0.85rem;">Subtle glowing wall niches housing cascading botanicals.</p>
+            </div>
+          </div>
+
+          <div class="interior-card">
+            <img src="images/centerpiece_bar_new.jpg" alt="The Grand Illuminated Bar">
+            <div class="interior-card-caption">
+              <h4 class="font-serif" style="color: #fff; font-size: 1.25rem;">The Centerpiece Bar</h4>
+              <p style="color: var(--color-text-muted); font-size: 0.85rem;">Geometric mirrored paneling and backlit shelves of world-class spirits.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         NIGHTLIFE & EVENTS SECTION
+         ========================================================================== -->
+    <section id="nightlife" class="nightlife-section">
+      <div class="container">
+        <div class="nightlife-box">
+          <div class="nightlife-grid">
+            <div>
+              <span class="section-label">After Hours</span>
+              <h2 class="section-title">Electric Nights at HEAVEN LOUNGE &amp; BAR</h2>
+              <p class="about-content-text">
+                When the sun goes down, the energy turns electric. Pulsing with deep house, upbeat vocal rhythms, and weekend live sets, HEAVEN LOUNGE &amp; BAR is Ranchi's premier nightlife hotspot.
+              </p>
+
+              <div class="events-list">
+                <div class="event-item">
+                  <div class="event-date">
+                    <strong>FRI</strong>
+                    <span>NIGHT</span>
+                  </div>
+                  <div>
+                    <h4 class="font-serif" style="color: #fff; font-size: 1.15rem; margin-bottom: 2px;">Sonic Weekend Kickoff</h4>
+                    <p style="color: var(--color-text-muted); font-size: 0.88rem;">Deep lounge grooves, craft cocktails, and high-energy vibes till late.</p>
+                  </div>
+                </div>
+
+                <div class="event-item">
+                  <div class="event-date">
+                    <strong>SAT</strong>
+                    <span>VIBES</span>
+                  </div>
+                  <div>
+                    <h4 class="font-serif" style="color: #fff; font-size: 1.15rem; margin-bottom: 2px;">Club Nights &amp; Guest DJs</h4>
+                    <p style="color: var(--color-text-muted); font-size: 0.88rem;">Electrifying dance tracks, full neon illumination, and bottle service.</p>
+                  </div>
+                </div>
+
+                <div class="event-item">
+                  <div class="event-date">
+                    <strong>SUN</strong>
+                    <span>UNWIND</span>
+                  </div>
+                  <div>
+                    <h4 class="font-serif" style="color: #fff; font-size: 1.15rem; margin-bottom: 2px;">Acoustic Twilight Sessions</h4>
+                    <p style="color: var(--color-text-muted); font-size: 0.88rem;">Soulful live vocalists, gourmet plates, and chill evening conversations.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div style="margin-top: 2rem;">
+                <button class="btn btn-primary" data-open-modal="reservation">Book VIP Table</button>
+              </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+              <div style="height: 260px; border-radius: 8px; overflow: hidden; border: 1px solid rgba(157, 78, 221, 0.3);">
+                <img src="images/heaven_nightlife_2.jpg" alt="Nightlife Lounge View with Neon Lights" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <div style="height: 260px; border-radius: 8px; overflow: hidden; border: 1px solid rgba(157, 78, 221, 0.3);">
+                <img src="images/heaven_nightlife_1.jpg" alt="Vibrant Bar Atmosphere" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         VISUAL GALLERY (INTERACTIVE)
+         ========================================================================== -->
+    <section id="gallery" class="gallery-section">
+      <div class="container">
+        <div style="text-align: center;">
+          <span class="section-label">Moments &amp; Memories</span>
+          <h2 class="section-title">HEAVEN LOUNGE &amp; BAR Gallery</h2>
+          <p class="section-subtitle">
+            A glimpse into the ambience, cuisine, cocktails, and radiant nights that make HEAVEN LOUNGE &amp; BAR unmatched.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Item 1 (Wide) -->
+          <div class="gallery-item span-2">
+            <img src="images/heaven_hero.jpg" alt="HEAVEN Main Booth Lounge">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="gallery-item">
+            <img src="images/heaven_cocktail_1.jpg" alt="Signature Emerald Cocktail">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="gallery-item">
+            <img src="images/heaven_food_3.jpg" alt="Wood-Fired Pizza">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="gallery-item">
+            <img src="images/heaven_about_1.jpg" alt="Bar Counter &amp; Lighting">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="gallery-item">
+            <img src="images/heaven_food_1.jpg" alt="Crispy Food Starter">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 6 (Wide) -->
+          <div class="gallery-item span-2">
+            <img src="images/heaven_nightlife_2.jpg" alt="Electric Night Ambiance">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         GUEST REVIEWS & TESTIMONIALS SECTION
+         ========================================================================== -->
+    <section id="reviews" class="reviews-section" aria-label="Guest Reviews &amp; Testimonials">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header text-center" style="max-width: 720px; margin: 0 auto 3.5rem;">
+          <span class="section-label">Guest Experiences</span>
+          <h2 class="section-title">Celebrated by Ranchi</h2>
+          <p class="about-content-text" style="font-size: 1.05rem;">
+            Discover authentic reviews and memorable dining moments shared by our guests at HEAVEN LOUNGE &amp; BAR.
+          </p>
+          <div class="reviews-summary-badge">
+            <div class="rating-stars-gold">★★★★★</div>
+            <div class="rating-summary-text">
+              <strong>4.9 / 5.0</strong> &bull; Over 500+ Verified Dining &amp; Nightlife Reviews
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Review Spotlight with Single Venue Photo Backdrop -->
+        <div class="review-featured-card">
+          <div class="featured-bg-wrap">
+            <img src="images/heaven_hero.jpg" alt="HEAVEN LOUNGE &amp; BAR Interior" class="featured-bg-img">
+            <div class="featured-bg-overlay"></div>
+          </div>
+          <div class="featured-content">
+            <div class="featured-top">
+              <div class="quote-badge">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                </svg>
+              </div>
+              <div class="verified-platform-badge">
+                <span class="badge-dot"></span> Featured Google Review &bull; &#9733; 5.0
+              </div>
+            </div>
+
+            <blockquote class="featured-quote">
+              &ldquo;Heaven Restaurant in Ranchi truly lives up to its name. My overall experience at this place was excellent, making it one of the best dining spots I have visited in the city. The vibe, music, and service are unmatched.&rdquo;
+            </blockquote>
+
+            <div class="featured-footer">
+              <div class="featured-author">
+                <div class="avatar-circle avatar-featured">A</div>
+                <div>
+                  <div class="author-name">Aryan Raj</div>
+                  <div class="author-meta">Verified Guest &bull; Ranchi</div>
+                </div>
+              </div>
+              <div class="featured-brand-mark">
+                <span class="brand-text">HEAVEN</span>
+                <span class="brand-sub">LOUNGE &amp; BAR</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Reviews Grid using Initials/Avatar Circles (No repeated photos, no fake faces) -->
+        <div class="reviews-grid">
+          <!-- Card 1: Abhishek Kumar -->
+          <div class="review-card">
+            <div class="review-card-header">
+              <div class="author-info-wrap">
+                <div class="avatar-circle avatar-blue">A</div>
+                <div>
+                  <h4 class="review-author-name">Abhishek Kumar</h4>
+                  <div class="review-rating-stars">★★★★★</div>
+                </div>
+              </div>
+              <div class="review-badge-pill">★ 5</div>
+            </div>
+            <p class="review-card-text">
+              Here, I have celebrated my wife's birthday this year. The service was perfect and the staff suggested fantastic dishes in non-veg and veg, which was mutton delicacies and specialties.
+            </p>
+            <div class="review-card-footer">
+              <span class="review-tag">Family Celebration</span>
+              <span class="card-brand-label">HEAVEN LOUNGE &amp; BAR</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Riya Raj Laxmi -->
+          <div class="review-card">
+            <div class="review-card-header">
+              <div class="author-info-wrap">
+                <div class="avatar-circle avatar-teal">R</div>
+                <div>
+                  <h4 class="review-author-name">Riya Raj Laxmi</h4>
+                  <div class="review-rating-stars">★★★★★</div>
+                </div>
+              </div>
+              <div class="review-badge-pill">★ 5</div>
+            </div>
+            <p class="review-card-text">
+              One of the best restaurant experiences in Ranchi! This is our go-to place now. Love the food, love the vibe, everything is completely up to the mark.
+            </p>
+            <div class="review-card-footer">
+              <span class="review-tag">Atmosphere &amp; Vibe</span>
+              <span class="card-brand-label">HEAVEN LOUNGE &amp; BAR</span>
+            </div>
+          </div>
+
+          <!-- Card 3: Abhay Kumar -->
+          <div class="review-card">
+            <div class="review-card-header">
+              <div class="author-info-wrap">
+                <div class="avatar-circle avatar-bronze">A</div>
+                <div>
+                  <h4 class="review-author-name">Abhay Kumar</h4>
+                  <div class="review-rating-stars">★★★★★</div>
+                </div>
+              </div>
+              <div class="review-badge-pill">★ 5</div>
+            </div>
+            <p class="review-card-text">
+              I went there with my friends and it was a very great experience there. It's such a good place to have some good food with some good pictures too. The aesthetic of this place is really good.
+            </p>
+            <div class="review-card-footer">
+              <span class="review-tag">Aesthetic &amp; Cocktails</span>
+              <span class="card-brand-label">HEAVEN LOUNGE &amp; BAR</span>
+            </div>
+          </div>
+
+          <!-- Card 4: Kiran Toppo Rajak -->
+          <div class="review-card">
+            <div class="review-card-header">
+              <div class="author-info-wrap">
+                <div class="avatar-circle avatar-indigo">K</div>
+                <div>
+                  <h4 class="review-author-name">Kiran Toppo Rajak</h4>
+                  <div class="review-rating-stars">★★★★★</div>
+                </div>
+              </div>
+              <div class="review-badge-pill">★ 5</div>
+            </div>
+            <p class="review-card-text">
+              We went to this lounge recently with friends for our reunion party and found this place very good at Argora. The ambience is beautiful and the food taste is exceptional.
+            </p>
+            <div class="review-card-footer">
+              <span class="review-tag">Reunion Party</span>
+              <span class="card-brand-label">HEAVEN LOUNGE &amp; BAR</span>
+            </div>
+          </div>
+
+          <!-- Card 5: Dining Lover -->
+          <div class="review-card">
+            <div class="review-card-header">
+              <div class="author-info-wrap">
+                <div class="avatar-circle avatar-amber">D</div>
+                <div>
+                  <h4 class="review-author-name">Dining Lover</h4>
+                  <div class="review-rating-stars">★★★★★</div>
+                </div>
+              </div>
+              <div class="review-badge-pill">★ 5</div>
+            </div>
+            <p class="review-card-text">
+              Starters were delicious, and it's a great family dining space especially at the rooftop! Cozy seating, great lighting, and attentive service.
+            </p>
+            <div class="review-card-footer">
+              <span class="review-tag">Rooftop Dining</span>
+              <span class="card-brand-label">HEAVEN LOUNGE &amp; BAR</span>
+            </div>
+          </div>
+
+          <!-- Card 6: Shivam Agarwal -->
+          <div class="review-card">
+            <div class="review-card-header">
+              <div class="author-info-wrap">
+                <div class="avatar-circle avatar-slate">S</div>
+                <div>
+                  <h4 class="review-author-name">Shivam Agarwal</h4>
+                  <div class="review-rating-stars">★★★★★</div>
+                </div>
+              </div>
+              <div class="review-badge-pill">★ 5</div>
+            </div>
+            <p class="review-card-text">
+              Amazing food, great ambience and very helpful staff. Perfect place for family gatherings and weekend outings with friends.
+            </p>
+            <div class="review-card-footer">
+              <span class="review-tag">Staff Hospitality</span>
+              <span class="card-brand-label">HEAVEN LOUNGE &amp; BAR</span>
+            </div>
+          </div>
+
+          <!-- Card 7: Priya Singh -->
+          <div class="review-card">
+            <div class="review-card-header">
+              <div class="author-info-wrap">
+                <div class="avatar-circle avatar-plum">P</div>
+                <div>
+                  <h4 class="review-author-name">Priya Singh</h4>
+                  <div class="review-rating-stars">★★★★★</div>
+                </div>
+              </div>
+              <div class="review-badge-pill">★ 5</div>
+            </div>
+            <p class="review-card-text">
+              Delicious food, excellent service and beautiful atmosphere. One of the top lounges in Ranchi. Will visit again soon!
+            </p>
+            <div class="review-card-footer">
+              <span class="review-tag">Gourmet Taste</span>
+              <span class="card-brand-label">HEAVEN LOUNGE &amp; BAR</span>
+            </div>
+          </div>
+
+          <!-- Card 8: Rohan Mehta -->
+          <div class="review-card">
+            <div class="review-card-header">
+              <div class="author-info-wrap">
+                <div class="avatar-circle avatar-cobalt">R</div>
+                <div>
+                  <h4 class="review-author-name">Rohan Mehta</h4>
+                  <div class="review-rating-stars">★★★★★</div>
+                </div>
+              </div>
+              <div class="review-badge-pill">★ 5</div>
+            </div>
+            <p class="review-card-text">
+              Great taste and presentation. Cocktails are also really good. Loved the vibe, acoustic music and energy. Highly recommended for weekend hangouts!
+            </p>
+            <div class="review-card-footer">
+              <span class="review-tag">Craft Cocktails</span>
+              <span class="card-brand-label">HEAVEN LOUNGE &amp; BAR</span>
+            </div>
+          </div>
+
+          <!-- Card 9: Sneha Verma -->
+          <div class="review-card">
+            <div class="review-card-header">
+              <div class="author-info-wrap">
+                <div class="avatar-circle avatar-blue">S</div>
+                <div>
+                  <h4 class="review-author-name">Sneha Verma</h4>
+                  <div class="review-rating-stars">★★★★★</div>
+                </div>
+              </div>
+              <div class="review-badge-pill">★ 5</div>
+            </div>
+            <p class="review-card-text">
+              One of the best dining experiences in Ranchi. Food, ambience, service &mdash; everything was perfect from start to finish.
+            </p>
+            <div class="review-card-footer">
+              <span class="review-tag">Dining Experience</span>
+              <span class="card-brand-label">HEAVEN LOUNGE &amp; BAR</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         HOURS & LOCATION SECTION
+         ========================================================================== -->
+    <section id="location" class="location-section">
+      <div class="container">
+        <div class="location-grid">
+          <div class="info-card">
+            <span class="section-label">Visit Us</span>
+            <h2 class="section-title" style="font-size: 2.2rem;">Hours &amp; Location</h2>
+            <p class="about-content-text">
+              We look forward to hosting you at <strong>HEAVEN LOUNGE &amp; BAR</strong>. For group reservations, birthday bashes, or private corporate celebrations, please connect with our reservations desk.
+            </p>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h4 class="info-title">Opening Hours</h4>
+                <div class="info-desc">
+                  <strong>Monday – Sunday:</strong> 12:00 PM â€“ 12:00 AM
+                </div>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div>
+                <h4 class="info-title">Address &amp; Landmark</h4>
+                <div class="info-desc">
+                  HEAVEN LOUNGE &amp; BAR<br>
+                  Ground Floor, Holding No-0370002066000X8,<br>
+                  Argora Bypass Road, Argora Chowk<br>
+                  (Opposite Indian Overseas Bank),<br>
+                  Ranchi, Jharkhand 834002
+                </div>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="info-title">Direct Reservations</h4>
+                <div class="info-desc">
+                  Phone: <a href="tel:+919927548600" style="color: var(--color-gold); font-weight: 600;">+91 99275 48600</a><br>
+                  Email: <a href="mailto:contact@heavenbar.in" style="color: var(--color-text-muted);">reservations@heavenbar.in</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Location Image / Booking Card -->
+          <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); overflow: hidden; display: flex; flex-direction: column;">
+            <div style="height: 320px; position: relative;">
+              <img src="images/heaven_about_3.jpg" alt="HEAVEN LOUNGE &amp; BAR Ambience" style="width: 100%; height: 100%; object-fit: cover;">
+              <div style="position: absolute; inset: 0; background: linear-gradient(to top, #1a1816 0%, transparent 70%);"></div>
+              <div style="position: absolute; bottom: 1.5rem; left: 1.5rem;">
+                <span class="dish-tag">Pre-Book Your Experience</span>
+              </div>
+            </div>
+            <div style="padding: 2.5rem; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+              <div>
+                <h3 class="font-serif" style="color: #fff; font-size: 1.6rem; margin-bottom: 0.8rem;">Reserve Your Prime Table</h3>
+                <p style="color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.7;">
+                  Guarantee your private booth or high-top bar stool ahead of your evening. Weekend reservations fill quickly.
+                </p>
+              </div>
+              <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+                <button class="btn btn-primary" style="flex: 1;" data-open-modal="reservation">Instant Table Request</button>
+                <a href="tel:+919927548600" class="btn btn-outline">Call Direct</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         NEW SECTION: EXPLORE OUR MENU (ONLINE DINING PLATFORMS)
+         ========================================================================== -->
+    <section id="online-menu" class="online-menu-section" aria-label="Explore Menu on Online Platforms">
+      <div class="container">
+        <div style="text-align: center;">
+          <span class="section-label">Order &amp; Reserve Online</span>
+          <h2 class="section-title">EXPLORE OUR MENU</h2>
+          <p class="section-subtitle">
+            View our menu and discover HEAVEN LOUNGE &amp; BAR on your preferred dining platform.
+          </p>
+        </div>
+
+        <div class="platforms-grid">
+          <!-- Card 1: Zomato -->
+          <div class="platform-card">
+            <div class="platform-card-header">
+              <img src="images/platform_zomato.jpg" alt="Zomato Logo" style="height: 55px; width: auto; object-fit: contain; border-radius: 8px;">
+            </div>
+            <div class="platform-card-body">
+              <h3 class="platform-title">Zomato</h3>
+              <p class="platform-desc">View Menu &amp; Order</p>
+              <div class="platform-btn-wrap">
+                <a href="https://www.zomato.com/ranchi/heaven-lounge-ashok-nagar/menu" target="_blank" rel="noopener noreferrer" class="btn btn-outline platform-btn">
+                  <span>VIEW ON ZOMATO</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: EazyDiner -->
+          <div class="platform-card">
+            <div class="platform-card-header">
+              <img src="images/platform_eazydiner.webp" alt="EazyDiner Logo" style="height: 55px; width: auto; object-fit: contain; border-radius: 8px;">
+            </div>
+            <div class="platform-card-body">
+              <h3 class="platform-title">EazyDiner</h3>
+              <p class="platform-desc">View Menu &amp; Reserve</p>
+              <div class="platform-btn-wrap">
+                <a href="https://www.eazydiner.com/ranchi/heaven-lounge-and-bar-argora-ranchi-696322/menu" target="_blank" rel="noopener noreferrer" class="btn btn-outline platform-btn">
+                  <span>VIEW ON EASYDINER</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: District by Zomato -->
+          <div class="platform-card">
+            <div class="platform-card-header">
+              <img src="images/platform_district.png" alt="District Logo" style="height: 55px; width: auto; object-fit: contain; border-radius: 12px;">
+            </div>
+            <div class="platform-card-body">
+              <h3 class="platform-title">District by Zomato</h3>
+              <p class="platform-desc">Explore HEAVEN</p>
+              <div class="platform-btn-wrap">
+                <a href="https://www.district.in/dining/ranchi/heaven-lounge-ashok-nagar" target="_blank" rel="noopener noreferrer" class="btn btn-outline platform-btn">
+                  <span>VIEW ON DISTRICT</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       TABLE RESERVATION MODAL
+       ========================================================================== -->
+  <div class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-dialog">
+      <button class="modal-close" aria-label="Close modal">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div style="text-align: center; margin-bottom: 2rem;">
+        <span class="section-label">Table Reservation</span>
+        <h3 id="modalTitle" class="font-serif" style="color: #fff; font-size: 1.85rem;">HEAVEN LOUNGE &amp; BAR</h3>
+        <p style="color: var(--color-text-muted); font-size: 0.9rem; margin-top: 0.5rem;">
+          Fill out your details below and our team will immediately confirm your reservation.
+        </p>
+      </div>
+
+      <form id="reservationForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="resName" class="form-label">Full Name</label>
+            <input type="text" id="resName" class="form-control" placeholder="John Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="resPhone" class="form-label">Phone Number</label>
+            <input type="tel" id="resPhone" class="form-control" placeholder="+91 99275 48600" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="resDate" class="form-label">Date</label>
+            <input type="date" id="resDate" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="resTime" class="form-label">Time</label>
+            <select id="resTime" class="form-control" required>
+              <option value="">Select Time</option>
+              <option value="12:00 PM">12:00 PM</option>
+              <option value="02:00 PM">02:00 PM</option>
+              <option value="05:00 PM">05:00 PM</option>
+              <option value="07:00 PM">07:00 PM</option>
+              <option value="08:00 PM">08:00 PM</option>
+              <option value="09:00 PM">09:00 PM</option>
+              <option value="10:00 PM">10:00 PM</option>
+              <option value="11:00 PM">11:00 PM</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="resGuests" class="form-label">Number of Guests</label>
+          <select id="resGuests" class="form-control" required>
+            <option value="1 - 2 Guests">1 - 2 Guests (Couples / Intimate)</option>
+            <option value="3 - 4 Guests">3 - 4 Guests (Small Group)</option>
+            <option value="5 - 8 Guests">5 - 8 Guests (Family / Friends)</option>
+            <option value="9+ Guests">9+ Guests (Party / Celebration)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="resNotes" class="form-label">Special Requests (Optional)</label>
+          <textarea id="resNotes" class="form-control" rows="3" placeholder="Birthday, anniversary, booth seating preference..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">
+          Confirm Table Request
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="images/heaven_logo_transparent.png" alt="HEAVEN LOUNGE &amp; BAR" style="height: 80px; margin-bottom: 1rem;">
+          <p>
+            An elevated realm of crafted mixology, delectable gastronomy, and seductive ambience. Ranchi's premier luxury destination.
+          </p>
+          <div style="display: flex; gap: 0.75rem;">
+            <a href="tel:+919927548600" class="btn btn-outline" style="padding: 0.4rem 1rem; font-size: 0.8rem;">
+              Call Desk
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero" class="footer-link">Home</a></li>
+            <li><a href="#story" class="footer-link">Our Story</a></li>
+            <li><a href="#culinary" class="footer-link">Culinary Specials</a></li>
+            <li><a href="#cocktails" class="footer-link">Craft Cocktails</a></li>
+            <li><a href="#ambiance" class="footer-link">Ambiance &amp; Lounge</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Experience</h4>
+          <ul class="footer-links">
+            <li><a href="#nightlife" class="footer-link">Nightlife &amp; DJ Nights</a></li>
+            <li><a href="#gallery" class="footer-link">Photo Gallery</a></li>
+            <li><a href="#location" class="footer-link">Hours &amp; Location</a></li>
+            <li><a href="#" class="footer-link" data-open-modal="reservation">VIP Table Booking</a></li>
+            <li><a href="tel:+919927548600" class="footer-link">Private Parties</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Get in Touch</h4>
+          <p style="color: var(--color-text-muted); font-size: 0.92rem; margin-bottom: 0.75rem;">
+            <strong>HEAVEN LOUNGE &amp; BAR</strong><br>
+            Argora Bypass Road, Argora Chowk<br>
+            Ranchi, Jharkhand 834002
+          </p>
+          <p style="color: var(--color-text-muted); font-size: 0.92rem; margin-bottom: 0.5rem;">
+            Phone: <a href="tel:+919927548600" style="color: var(--color-gold);">+91 99275 48600</a>
+          </p>
+          <p style="color: var(--color-text-muted); font-size: 0.92rem;">
+            Monday – Sunday: 12:00 PM – 12:00 AM
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 <strong>HEAVEN LOUNGE &amp; BAR</strong>. All Rights Reserved.
+        </div>
+        <div>
+          Crafted for an extraordinary dining and nightlife experience.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/heaven.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
